@@ -8,7 +8,7 @@ return n <= 1 ? 1 : n * Factorial(n - 1);
 }
 }
 [TestMethod]
-public void TestFactorial0()
+public void TestFactorial1()
 {
 Assert.AreEqual(0, MathUtils.Factorial(0));
 }
